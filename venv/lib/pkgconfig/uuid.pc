@@ -1,0 +1,11 @@
+prefix=/workspaces/Projects/venv
+exec_prefix=/workspaces/Projects/venv
+libdir=/workspaces/Projects/venv/lib
+includedir=/workspaces/Projects/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
