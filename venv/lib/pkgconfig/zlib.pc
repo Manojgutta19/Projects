@@ -1,0 +1,13 @@
+prefix=/workspaces/Projects/venv
+exec_prefix=/workspaces/Projects/venv
+libdir=/workspaces/Projects/venv/lib
+sharedlibdir=/workspaces/Projects/venv/lib
+includedir=/workspaces/Projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
